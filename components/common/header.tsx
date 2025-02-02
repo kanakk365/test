@@ -11,7 +11,7 @@ export default function Header() {
             <a href="#" title="" className="flex">
               <img
                 className="w-auto h-9"
-                src="https://cdn.global.noobsverse.com/CoffeeCodes+Logo.svg"
+                src="/favicon.jpg"
                 alt=""
               />
             </a>
