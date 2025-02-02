@@ -25,6 +25,8 @@ import ViewMenus from "@/components/common/dashboard/pages/view-menus";
 import { UpdateVenueForm } from "@/components/common/dashboard/pages/update-venue-form";
 import { CreateMenuForm } from "@/components/common/dashboard/pages/create-menu-form";
 import FoodItemsListPage from "@/components/common/dashboard/pages/services/food/food-items-list";
+import ViewPackage from "@/components/common/dashboard/pages/services/package/view-package";
+import CreatePackagePage from "@/components/common/dashboard/pages/services/package/create-package";
 
 export const COMPONENT_MAP = {
   dash: Dash,
@@ -38,6 +40,8 @@ export const COMPONENT_MAP = {
   menus: ViewMenus,
   "create-menu": CreateMenuForm,
   "food-items-list": FoodItemsListPage,
+  package: ViewPackage,
+  "create-package": CreatePackagePage
 } as const;
 
 export interface DashboardState {

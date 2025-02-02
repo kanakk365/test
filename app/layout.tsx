@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   description: "Wedzing Admin Console",
 };
 
+
 export default function RootLayout({
   children,
 }: Readonly<{
